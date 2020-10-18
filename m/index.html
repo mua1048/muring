@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html   ondragstart="return false" onselectstart="return false">
+  <head>
+    <title>뮤링봇 홈페이지</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="indexcss.css" media="screen">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="logo.png">
+    <meta property="og:site_name" content="MURING">
+    <meta property="og:title" content="뮤링봇">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#000000">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans:400" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+      new Crate({
+        server: '707152330696687636', // 뮤링 서포트
+        channel: '707232337464655953' // #문의
+      })
+const buttonArr = document.getElementsByTagName('button');
+
+for(let i = 0; i < buttonArr.length; i++){
+  buttonArr[i].addEventListener('click',function(e){
+    e.preventDefault();
+    document.querySelector('.box' + (i + 1)).scrollIntoView(true);
+  });
+}
+
+    </script>
+
+</head>
+
+  <body data-home-page="index.html" data-home-page-title="index" class="u-body u-overlap u-overlap-contrast u-overlap-transparent"><header class="u-clearfix u-grey-5 u-header u-header" id="sec-4ac2"><a href="muring.vercel.com"><img src="https://cdn.discordapp.com/attachments/712846798066155560/767010563187671040/1602939948035.png"></a>
+    <a href="https://discord.com/oauth2/authorize?client_id=706680490043899934&scope=bot&permissions=1278606448" id="검은고딕" id="xd" style="float: right; color: white;">봇 초대​ ​</a>
+    <a href="https://discord.com/invite/jtKP8TX" id="검은고딕" id="xd" style="float: right; color: white;">서포트 서버 ​ ​ ​</a>
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-heading-font u-subtitle u-text u-text-default u-text-1"></h2>
+        <h1 class="u-text u-text-2"></h1>
+        <h2 class="u-heading-font u-subtitle u-text u-text-3"></h2>
+      </div></header>
+
+
+    <section class="u-align-left u-clearfix u-section-1" id="sec-5445">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center><p style="font-size: 60px; color: white;" id="gugi">뮤링</p></center>
+        <center>
+          <p id="gugi" style="font-size: 30px; color: white;">당신의 디스코드 봇.</p>
+          </center>
+        <center>
+        <a href="https://discord.com/oauth2/authorize?client_id=706680490043899934&scope=bot&permissions=1278606448" class="u-border-radius-10 u-btn u-btn-round-1 u-button-style btn btn-2" id="검은고딕">봇 초대</a>
+        <a href="https://discord.com/invite/jtKP8TX" class="u-border-radius-10 u-btn u-btn-round-1 u-button-style btn btn-2" id="검은고딕" >서포트 서버</a>
+      </center>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--<center><h3 id="검은고딕"><button class="u-border-radius-10 u-btn u-btn-round-1 u-button-style btn btn-2">더 알아보기<br>▼</button></h3></center>-->
+    </section>
+  </body>
+</html>
