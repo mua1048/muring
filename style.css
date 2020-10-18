@@ -66,7 +66,7 @@ user-select: none;
   color: white;
 }
  body {
-  background-image: linear-gradient(227deg,#ffd6e9, #b3f4ff, #c5fae5, #e145f2);
+  background-image: linear-gradient(227deg, #edff8a,#61ff4d, #acd7fc, #ff5252);
   background-size: 600% 600%;
   -webkit-animation: Test 36s ease infinite;
   -moz-animation: Test 36s ease infinite;
