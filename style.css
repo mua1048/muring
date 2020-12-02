@@ -7,34 +7,34 @@
  *
  * Copyright (c) 2019 Daniel Eden
  */
+
 .btnx13 {
 	background-color:transparent;
-	-webkit-border-top-left-radius:28px;
-	-moz-border-radius-topleft:28px;
-	border-top-left-radius:28px;
-	-webkit-border-top-right-radius:28px;
-	-moz-border-radius-topright:28px;
-	border-top-right-radius:28px;
-	-webkit-border-bottom-right-radius:28px;
-	-moz-border-radius-bottomright:28px;
-	border-bottom-right-radius:28px;
-	-webkit-border-bottom-left-radius:28px;
-	-moz-border-radius-bottomleft:28px;
-	border-bottom-left-radius:28px;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
 text-indent:0;
-	border:1px solid #3d3d3d;
+	border:1px solid #ffffff;
 	display:inline-block;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-height:71px;
-	line-height:71px;
-width:200px;
+height:55px;
+	line-height:55px;
+width:150px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:1px 1px 0px #ffffff;
 }.btnx13:active {
 	position:relative;
 	top:1px;
